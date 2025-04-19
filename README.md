@@ -2,8 +2,8 @@
 
 ## PRODUCT PRICE UPDATE SCRIPT
 
-This python script reads csv files (products.csv, sales.csv) and analyzes the stock and quantity sold details to generate new prices for thr products based on the conditions applied.
-The new price which is calculated is then added to the "updated_prices.csv" file along with the product's "sku" and "current price" values.
+This python script reads csv files (products.csv, sales.csv) and analyzes the stock and quantity sold details, to generate new prices for the products based on the conditions applied.
+The new price which is calculated is then added to the "updated_prices.csv" file, along with the product's "sku" and "current price" values.
 
 ### Steps involved
 
