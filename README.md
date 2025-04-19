@@ -23,10 +23,17 @@ After calculation, the new price is adjusted to ensure it's at least 120% of the
 ### Steps involved
  
 1. import csv module
+ 
 2. Open "products.csv" and "sales.csv" files in read mode using variable products, sales
+ 
 3. Create "updated_prices.csv", open it in write mode.
+ 
 4. Add column headers using "fieldNames" list datas
+ 
 5. Using for loop iterate thourgh the datas and check if the "product["sku"] == sales["sku"]
+ 
 6. If matched, "getNewPrice()" function is called, which takes product details like "stock","quantity sold" and "current price" as arguments to calculate new price
+ 
 7. Then the calculated price is checked if it is atleast 120% of the product's cost price, if not, the new price value id changed to 120% of the product'c cost price using "checkNewPrice()"
+ 
 8. Finally "writeFile()" function is called to write the updated "new price", along with the "product's sku" and "old price" into the "updated_prices.csv" file
