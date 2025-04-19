@@ -2,6 +2,4 @@
 
 ### Calculate new price - cosidering the stock, quantity sold and current price
 
-<img src="![import-icon](https://github.com/user-attachments/assets/87b0a1b7-4324-478e-8849-d999df64f046)" alt="Price Updater Icon" width="30"/>
-
-![import-icon](https://github.com/user-attachments/assets/87b0a1b7-4324-478e-8849-d999df64f046) import csv module
+![image](https://github.com/user-attachments/assets/eac01170-253b-4717-aa09-af8885b88b46) import csv module
