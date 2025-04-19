@@ -1,3 +1,3 @@
-# Python Coding Challenge
+## Python Coding Challenge
 
-## Calculate new price - cosidering the stock, quantity sold and current price
+### Calculate new price - cosidering the stock, quantity sold and current price
