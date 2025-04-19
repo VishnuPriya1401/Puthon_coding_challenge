@@ -8,16 +8,16 @@ The new price which is calculated is then added to the "updated_prices.csv" file
 ### Pricing Logic
 The new price is determined using the following rules:
 
-1. High Demand & Low Stock
+1. High Demand & Low Stock -->
 If stock < 20 and quantity_sold > 30, increase price by 15%.
 
-2. Excess Stock & No Sales
+2. Excess Stock & No Sales -->
 If stock > 200 and quantity_sold == 0, reduce price by 30%.
 
-3. Moderate Stock & Low Sales
+3. Moderate Stock & Low Sales -->
 If stock > 100 and quantity_sold < 20, reduce price by 10%.
 
-4. Minimum Price Check
+4. Minimum Price Check -->
 After calculation, the new price is adjusted to ensure it's at least 120% of the product's cost price.
 
 ### Steps involved
